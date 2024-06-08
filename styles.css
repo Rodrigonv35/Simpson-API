@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+.cuadro {
+    background: linear-gradient(gray,black);
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+.cuadro img {
+    width: 20%;
+    position: absolute;
+    left: 100px;
+    top: -28px;
+}
+.cuadro h1 {
+    text-align: center;
+    font-family: 'Rapier Zero Hollow', sans-serif;
+    font-size: 90px;
+    background: -webkit-linear-gradient(45deg, red, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+                                                
+}
+h2 {
+    color: rgb(25, 25, 80);
+}
+span {
+    text-align: center;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.image-container {
+    display: flex;
+}
+.image-conatiner img {
+    width:50%;
+}
+article {
+    padding: 15px;
+    box-shadow: 0px 0px 5px #000;
+    border: solid 1px;
+    border-radius: 5px;
+    background: linear-gradient( gray , white);
+}
